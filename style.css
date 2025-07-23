@@ -1,0 +1,135 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Section Titles */
+h2 {
+  color: #4a90e2;
+  text-align: center;
+  margin: 50px 0 20px;
+  font-size: 2rem;
+}
+
+/* Project Cards */
+.project {
+  background: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 8px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.project a:hover {
+  background-color: #357ABD;
+}
+
+/* About & Contact Section */
+#about, #contact {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background: #ffffffc4;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: 30px;
+}
+
+#about p, #contact p {
+  font-size: 16px;
+  text-align: center;
+}
+
+#contact a {
+  color: #4a90e2;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #34495e;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
